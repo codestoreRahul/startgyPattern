@@ -8,6 +8,7 @@ export interface AdminInterface extends UserInterface {
   listUsers(): User[];
 }
 
+
 class Admin extends User implements AdminInterface {
   private users: User[];
 
